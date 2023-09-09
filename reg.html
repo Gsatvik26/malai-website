@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Malai Club Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Add your CSS styles for the registration page here -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("bg1.jpg") center/cover no-repeat fixed; /* Fixed background image */
+            font-family: Arial, sans-serif;
+            color: #fff; /* Text color for the entire page */
+        }
+
+        .registration-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for the form */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .registration-container h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .registration-form {
+            padding: 20px;
+        }
+
+        .registration-form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .registration-form input[type="text"],
+        .registration-form input[type="email"],
+        .registration-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .registration-form button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .registration-form button[type="submit"]:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo.png" height="100px">
+            <h2 class="logo">Malai <span>Club</span></h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <a href="reg.html" class="btn">Register</a>
+        </nav>
+        <div class="content">
+                
+            <h1>Malai <span>Registration</span></h1>
+            
+        </div>
+    </div>
+
+    <div class="registration-container">
+        <h1>Malai Club Registration</h1>
+        <div class="registration-form">
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="email">Hall Ticket Number:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone" required>
+
+                <label for="department">Department:</label>
+                <select name="department" id="department" required>
+                    <option value="CSE">Computer Science</option>
+                    <option value="EEE">Electrical & Electronics</option>
+                    <option value="ME">Mechanical Engineering</option>
+                    <option value="CE">Civil Engineering</option>
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

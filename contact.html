@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Malai Club</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Add your CSS styles for the Contact Us page here -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("bg1.jpg") center/cover no-repeat; /* Background image for the entire page */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Add your Contact Us page-specific CSS styles here */
+        .contact-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .contact-info {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .contact-icons {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #007bff; /* Blue color for icons */
+        }
+
+        .contact-social {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            font-size: 32px;
+            margin: 0 10px;
+            color: #007bff; /* Blue color for social icons */
+        }
+
+        .contact-form {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for the form */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-form h2 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+        }
+
+        .contact-form button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button[type="submit"]:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo.png" height="100px">
+            <h2 class="logo">Malai <span>Club</span></h2>
+            <ul>
+                <<li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+            <a href="reg.html" class="btn">Register</a>
+        </nav>
+        <div class="content">
+            <h1>Contact <span>Us</span></h1>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker contact-icons"></i>Anurag University,Hyderabad</p>
+            <p><i class="fas fa-envelope contact-icons"></i><a href="mailto:malai@anurag.edu.in">malai@anurag.edu.in</a></p>
+            <p><i class="fas fa-phone contact-icons"></i>+91</p>
+        </div>
+
+        <div class="contact-social">
+            <a href="https://www.instagram.com/malai_au/"><i class="fab fa-instagram social-icon"></i></a>
+            <a href="https://www.linkedin.com/company/malai-au1/?viewAsMember=true"><i class="fab fa-linkedin-in social-icon"></i><br><p style="font-size: medium; color: #0056b3;">@malai_au</p></a>
+        </div>
+        <br>
+
+        <div class="contact-form">
+            <h2>Send us a message</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
